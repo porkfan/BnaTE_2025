@@ -1,4 +1,4 @@
-# 5. TE-GWAS
+# 6. TE-GWAS
 
 ```bash
 module load cta/1.94.1
