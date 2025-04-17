@@ -1,6 +1,6 @@
-# 4. RNA-seq
+# 5. RNA-seq
 
-## 4.1 Quality Control
+## 5.1 Quality Control
 
 ```bash
 # 01_TrimGalore.sh
@@ -9,7 +9,7 @@ sample=$1
 trim_galore --paired --quality 20 -a AGATCGGAAGAGC -a2 AGATCGGAAGAGC --length 20 -o 01_trim/40DAF_seed/  raw_data/40DAF_seed/${sample}_1.fq.gz raw_data/40DAF_seed/${sample}_2.fq.gz
 ```
 
-## 4.2 Alignment
+## 5.2 Alignment
 
 ```bash
 #02_star.sh
@@ -22,7 +22,7 @@ STAR --runThreadN 4 --genomeDir GL_ref  --twopassMode Basic --readFilesCommand z
 samtools index star/${sample}/${sample}Aligned.sortedByCoord.out.bam
 ```
 
-## 4.3 TMM Normalization
+## 5.3 TMM Normalization
 
 ```R
 library(edgeR)
