@@ -1,0 +1,1 @@
+sh panEDTA.sh -g genome_list.txt  -c Brassica_napus.ZS11.v0.cds.fa  -t 40
