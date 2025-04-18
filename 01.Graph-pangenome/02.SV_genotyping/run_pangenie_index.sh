@@ -1,2 +1,0 @@
-module load Singularity/3.7.3
-singularity exec pangenie.sif  PanGenie-index -v  Brassica_napus14-pg.raw_r100kb_fil_0.5missing_phased_deleteN_trim_id_filter_SV.vcf  -r Brassica_napus.ZS11.v0.genome.fa  -t 20 -o PanGenie
