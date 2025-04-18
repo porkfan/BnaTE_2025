@@ -1,0 +1,3 @@
+panacus ordered-histgrowth -c bp -t20 -l 1,2,4,12 -S -O mc_Brassica_napus14-pg.order.samples.txt -e mc_Brassica_napus14pg.walks_ref.txt mc_Brassica_napus14-pg.gfa
+panacus ordered-histgrowth -c node -t20 -l 1,2,4,12 -S -O mc_Brassica_napus14-pg.order.samples.txt -e mc_Brassica_napus14pg.walks_ref.txt mc_Brassica_napus14-pg.gfa
+panacus ordered-histgrowth -c edge -t20 -l 1,2,4,12 -S -O mc_Brassica_napus14-pg.order.samples.txt -e mc_Brassica_napus14pg.walks_ref.txt mc_Brassica_napus14-pg.gfa
